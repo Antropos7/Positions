@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    color:rgb(5, 70, 30)
+    
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto 0px;
+  }
+  .top-button {
+    position: sticky;
+    place-self: end;
+    right: 20px;
+    bottom: 30px;
+    opacity: 70%;
+    color: rgb(0, 215, 143);
+    --offset: 75px;
+    margin-top: calc(100vh + var(--offset));
+  }
